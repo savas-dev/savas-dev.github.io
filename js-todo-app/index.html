@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo App</title>
+  </head>
+  <body>
+
+    <div class="container">
+        <header class="text-center text-light my-4">
+            <h1 class="mb4">Todo App</h1>
+            <form action="" class="search">
+                <input type="text" name="search" class="form-control" placeholder="Search..">
+            </form>
+        </header>
+
+        <section class="no-content d-none text-center my-4">
+            <span class="warning-message text-light">
+                Your todo list is empty. Enter new todos to list.
+            </span>
+        </section>
+
+        <ul class="list-group text-light todos">
+            
+        </ul>
+
+        <form action="" class="text-center my-4 addForm">
+            <label for="" class="text-light my-2">Add New Job</label>
+            <input type="text" class="form-control m-auto" name="add" placeholder="write new todo and press enter">
+        </form>
+
+        <section class="clear-all text-center my-4">
+            <button class="buttonClear btn btn-danger">Clear All Todos</button>
+        </section>
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="savas.js"></script>
+  </body>
+</html>
