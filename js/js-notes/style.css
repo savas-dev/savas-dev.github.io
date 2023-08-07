@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+:root{
+    --primary-color: #1b1c1d;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+}
+
+.add{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: #9ec862;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+
+.main{
+    padding: 20px;
+}
+
+.note{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+    margin: 30px 20px;
+    height: 400px;
+    width: 400px;
+}
+
+.note .tools{
+    background-color: #9ec862;
+    display: flex;
+    justify-content: flex-end;
+    padding: .5rem;
+}
+
+.note .tools button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+    margin-left: .5rem;
+}
+
+.note textarea{
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+}
+
+.hidden{
+    display: none;
+}
